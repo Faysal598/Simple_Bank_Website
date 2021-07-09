@@ -3,7 +3,34 @@
     padding: 100px;
 }
 .submitArea{
-    border-radius:8px;
+    border-radius:10px;
     box-shadow: 5px 5px 10px gray;
     padding: 20px;
+    
+}
+#transactionArea{
+    display: none;
+}
+.row{
+    padding: 100px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin-left: 10px;
+    color: white;
+    padding: 30px;
+    border-radius:10px;
+    width: 280px;
+}
+.others{
+    position: relative;
+    bottom: 150px;
 }
